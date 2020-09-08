@@ -4,10 +4,11 @@
   <head>
      <title> Demo 1 </title>
       <meta charset ="UTF-8">
+      <link rel="stylesheet" type="text/css" href="./css/demo1.css">
  </head> 
 
   <body>
-      <h1> ISoin otsikko <h1>
+      <h1> Isoin otsikko <h1>
       <h2> toiseksi isoin otsikko </h2>
       
       <p> tämä onb tekstin kappale, tag on p, tulee senasta paragraph. </p>
@@ -31,7 +32,7 @@
 
         <h2> linkkeja </h2>
         <h3> ulkoiset sivut </h3>
-        <p> käytä koko URL:ää </p>
+        <p id="tärkein"> käytä koko URL:ää </p>
         <p> linkki alkaa tagilla a (anchor), herf (reference) kertoo mihin linkki vie. Tagien väliin tulee se teksti, minkä lukija näkee. jos haluat avata sivu toiselle vlilehdelle, lisää target-attribuutti ja anna sen arvoksi blank </p>
         <ul> 
             <li> <a href="https://www.youtube.com/?gl=FI&hl=fi" target = "_blank"> youtube sivulle  </a> </li>
@@ -42,14 +43,11 @@
          sen nimellä, esim. a herf = "sivu2.htlm"        
         </p>
        <h3> kuvat </h3>  
-       <p> kuva lisätään tagilla img. pakollinen attribuutti on alt (alternative), johon kirjoitetaan vaihto, jos kuva ei toimi. toinen pakollinen on src (source), jossa kerrotaan mistä kuva löytyy. </p>
-       <p><img src="./kuvat/otus.jpg.jpg" alt="otus"></p>
-       <p><img src="./kuvat/kala.jpg" alt="kalaa"></p>
+       <p class= kuvateksti> kuva lisätään tagilla img. pakollinen attribuutti on alt (alternative), johon kirjoitetaan vaihto, jos kuva ei toimi. toinen pakollinen on src (source), jossa kerrotaan mistä kuva löytyy. </p>
+       <p class= "kuvateteksti"><img src="./kuvat/otus.jpg" alt="otus"></p>
+       <p><img src="./kuvat/kala.jpg" alt="kala"></p>
        <p><img src="./kuvat/tori.jpg" alt="kalaa"></p>
   </body>
 
-
-
- 
 
 </html>   

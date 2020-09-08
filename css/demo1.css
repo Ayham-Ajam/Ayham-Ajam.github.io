@@ -1,0 +1,47 @@
+body {
+    background-color: #ffffff; 
+   /* background-image:url("../kuvat/taus.png");
+    background-repeat:repeat;  toistuu kahteen suuntaan 
+    background-image:url("../kuvat/polle.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;*/
+    background-image:url("../kuvat/tumma.jpg");
+    background-size:100%;
+    color: #ffffff;
+    margin-left: 60px; 
+    font-family: "Arial bold" , sans-serif;
+    font-size: 1.3em ; 
+}
+
+h1{
+    color: #ffa500;
+    margin-top:50px;
+    font-family:"Traebuchet MS", "Times New2 Roman ";
+    font-size:5am;
+}
+
+h2{
+    
+    font-family:Verdana, serif ;
+    font-size:2em;
+}
+
+#tärkein {
+    border:solid 1px #ffffff;
+    border-radius:7px; 
+    padding:10px ;
+    background-color: #333333
+}
+
+img{
+    widows: 300px;
+    border:3px #00ff00 solid;
+    padding:10px ;
+    margin:100px;
+}
+
+.kuvateksti{
+    color:#00ffff;
+    font-style:italic;
+}
