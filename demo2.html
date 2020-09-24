@@ -3,9 +3,15 @@
     <head>
          <meta charset ="UTF-8">
         <title> Demo 2 </title>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="demo4.css">
                  
-     </head>
+    </head>
+
      <body>
+            <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+
+            <section id="Kalatori">
             <ul>
                 <li> <a href="#Kalatori">Kalatori</a></li>
                 <li> <a href="#markkinat"> Markkinat</a></li>
@@ -13,29 +19,32 @@
                 <li> <a href="#yhteys"> ota yhteyttä</a></li>
                 <li> <a href="#sijainti">sijainti</a></li>
             </ul>
-
-           <a name= "Kalatori"><h1>kalatori</h1></a>
-        <img src="./kuvat/kala.jpg" alt="kalaa"><br>
-        jem sahaguin kuva 
+            
+            <a name= "Kalatori"><h1>kalatori</h1></a>
+            <img src="./kuvat/kala.jpg" alt="kalaa"><br>
+            jem sahaguin kuva 
     
-        <p>Kalatori on <strong>kalastajalle</strong>mahdollisuus <b> myydä</b> saaliinsa tuoreena suoraan vähittäisasiakkaille. 
-        Se sijaitsee ihanteellisessa paikassa aivan vanhan Pirkkalankylän  keskustassa. 
-        Torilla pidetään markkinapäiviä ja olemme saaneet torille vakituisen asiakaskunnan.
-        Julkinen liikenne suosii toria, sijainti on nimen mukaisesti kalasataman vieressä ja linja-autopysäkki on 50 metrin päässä.</p>
+            <p>Kalatori on <strong>kalastajalle</strong>mahdollisuus <b> myydä</b> saaliinsa tuoreena suoraan vähittäisasiakkaille. 
+            Se sijaitsee ihanteellisessa paikassa aivan vanhan Pirkkalankylän  keskustassa. 
+            Torilla pidetään markkinapäiviä ja olemme saaneet torille vakituisen asiakaskunnan.
+            Julkinen liikenne suosii toria, sijainti on nimen mukaisesti kalasataman vieressä ja linja-autopysäkki on 50 metrin päässä.</p>
+            </section>
         
-        <h3>vuoden 2020 markkinta</h3> 
-        <ul>      
-        <li><del>Kevätmarkkinat lauantai 11.4. klo 7–16</del></li> 
-        <li>Juhannusmarkkinat tiistai 16.6. klo 7–15</li>
-        <li>Elomarkkinat tiistai 17.8. klo 7–15</li>
-        <li>Syysmarkkinat tiistai 13.10. klo 7–15</li>
-        <li>Joulumarkkinat tiistai 15.12. klo 7–15</li>
+            <section id="markkinat">
+            <h3>markkinat</h3> 
+            <ul>      
+            <li><del>Kevätmarkkinat lauantai 11.4. klo 7–16</del></li> 
+            <li>Juhannusmarkkinat tiistai 16.6. klo 7–15</li>
+            <li>Elomarkkinat tiistai 17.8. klo 7–15</li>
+            <li>Syysmarkkinat tiistai 13.10. klo 7–15</li>
+            <li>Joulumarkkinat tiistai 15.12. klo 7–15</li>
         </ul>  
         <img src="./kuvat/mustekala.jpg" alt="mustekala">
         <img src="./kuvat/pienikala.jpg" alt="mustekala">
         <img src="./kuvat/rapu.jpg" alt="mustekala">
-        
+        </section>
 
+        <section id="hinnasto">
         <a name="hinnasto"> <h3>hinnasto</h3></a>
         <img src="./kuvat/tori.jpg" alt="TORI"><br>
         paikkakartta
@@ -126,7 +135,12 @@
                 <td>40</td>
             </tr>
         </table>
-        <a name="ota yhteyttä"> <h3>ota yhteyttä </h3></a>
+
+
+        </section>
+
+        <section id="yhteys">
+        <a name="yhteys"> <h3>ota yhteyttä </h3></a>
         <form action="https://www.leeniemi.net/julkaiset19/luelomake.php" method="post">
 
             nimimerkki <br>
@@ -146,11 +160,45 @@
             <input type="reset" value= "tyhjennä">
             <input type="submit" value= "lähetä">
         </form>
+        </section>
 
+         <section id="yhteys">
         <a name="sijainti"> <h3>sijainti</h3></a>
+
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.388558666989!2d23.553101342534124!3d61.45329000415648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ed9fa83d6429f%3A0xb142d41e406c097d!2sKierikantie%2018%2C%2033980%20Pirkkala!5e0!3m2!1sfi!2sfi!4v1598336813606!5m2!1sfi!2sfi" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
          <p>&copy;Ayham</p>
+
+
          
+
+        </section>
+        <script>
+                //Get the button
+                var mybutton = document.getElementById("top");
+                
+                 
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                 
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                 
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
          </body>
- </html>        
+</html>        
