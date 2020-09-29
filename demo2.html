@@ -11,15 +11,18 @@
      <body>
             <button onclick="topFunction()" id="top" title="Go to top">Top</button>
 
+            <header>
+                
+                <ul class="navi">
+                    <li class="navi"> <a href="#Kalatori">Kalatori</a></li>
+                    <li class="navi"> <a href="#markkinat"> Markkinat</a></li>
+                    <li class="navi"> <a href="#hinnasto"> hinnasto</a></li>
+                    <li class="navi"> <a href="#yhteys"> ota yhteyttä</a></li>
+                    <li class="navi"> <a href="#sijainti">sijainti</a></li>
+                </ul>
+            </header>
+
             <section id="Kalatori">
-            <ul>
-                <li> <a href="#Kalatori">Kalatori</a></li>
-                <li> <a href="#markkinat"> Markkinat</a></li>
-                <li> <a href="#hinnasto"> hinnasto</a></li>
-                <li> <a href="#yhteys"> ota yhteyttä</a></li>
-                <li> <a href="#sijainti">sijainti</a></li>
-            </ul>
-            
             <a name= "Kalatori"><h1>kalatori</h1></a>
             <img src="./kuvat/kala.jpg" alt="kalaa"><br>
             jem sahaguin kuva 
@@ -39,15 +42,25 @@
             <li>Syysmarkkinat tiistai 13.10. klo 7–15</li>
             <li>Joulumarkkinat tiistai 15.12. klo 7–15</li>
         </ul>  
-        <img src="./kuvat/mustekala.jpg" alt="mustekala">
-        <img src="./kuvat/pienikala.jpg" alt="mustekala">
-        <img src="./kuvat/rapu.jpg" alt="mustekala">
+
+        <div id="kuvat">
+
+            <img src="./kuvat/mustekala.jpg" alt="mustekala" class="round">
+            <img src="./kuvat/pienikala.jpg" alt="pienikala" class="round">
+            <img src="./kuvat/rapu.jpg" alt="rapu" class="round">
+        </div>
         </section>
 
         <section id="hinnasto">
+
         <a name="hinnasto"> <h3>hinnasto</h3></a>
-        <img src="./kuvat/tori.jpg" alt="TORI"><br>
-        paikkakartta
+        <div id="paikkakartta">
+        <p>
+            <img src="./kuvat/tori.jpg" alt="TORI"><br>
+            paikkakartta
+        </p>
+        </div>
+        <div id="hintataulukko">
         <table>
             <tr> <!--otsikkorivi -->
                 <th>Tunnus</th> <!--table head = th-->
@@ -135,7 +148,7 @@
                 <td>40</td>
             </tr>
         </table>
-
+        </div>
 
         </section>
 
