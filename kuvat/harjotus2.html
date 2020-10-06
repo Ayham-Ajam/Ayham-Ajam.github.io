@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title>harjotus 2</title>
+        <link rel="stylesheet" type="text/css" href="harjotus2.css">
+    </head>
+    <body>
+
+        <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+
+        <header>
+                
+            <ul class="navi">
+                <li class="navi"> <a href="#Ouluravintola">Oulu ravintola</a></li>
+                <li class="navi"> <a href="#Lounaslista"> Lounaslista</a></li>
+                <li class="navi"> <a href="#Yhteystiedot"> Yhteystiedot</a></li>
+                <li class="navi"> <a href="#Aukiooloajat"> Aukiooloajat</a></li>
+                <li class="navi"> <a href="#sijainti">sijainti</a></li>
+            </ul>
+        </header>
+
+        <section id="Ouluravintola">
+         <a id="Ouluravintola"> <h1>Oulu ravintola</h1> </a>
+        </section>
+
+        <section id="Lounaslista">
+        <a id="Lounaslista"> <h2>Lounaslista</h2> </a>
+
+     <ul>
+        <li>Maanantai
+
+            Juusto-vihanneskeittoa ja kokin sämpylä
+            Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia
+            Marjakiisseliä ja hunajakermavaahtoa</li>
+            <li>Tiistai
+
+        Kana-fetajustosalaattia ja kokin sämpylä
+        Paistettua punakampelaa, pinaattikastiketta ja perunamuusia
+        Pannukakkua, mansikkahilloa ja kermavaahtoa</li>
+
+        <li>Keskiviikko
+
+            Tomaatti-yrttikeittoa ja kokin sämpylä
+            Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia
+            Omenapiirakkaa ja vaniljakastiketta</li>
+            <li>Torstai
+
+                Rapukeittoa ja kokin sämpylä
+                Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja
+                Hedelmäsalaattia ja kinuskikastiketta</li>
+        <li>Perjantai
+
+            Savulohisalaatti ja kokin sämpylä
+            Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia
+            Suklaamousse</li>
+      </ul>
+      <p>11 euroa, sisältää ruokajuoman - vesi, kotikalja, maito</p>
+
+      <img src="pizza2.jpg" alt="pizza">
+      <img src="Ruokajutu.jpg" alt="Ruokajutu">
+      <img src="dsadsa.jpg" alt="dsadsa">
+      <img src="shutterstock.jpg" alt="shutterstock">
+      <img src="shalakak.jpg" alt="shalakak">
+
+      </section>
+
+      <section id="Aukiooloajat" >
+      <a id="Aukiooloajat "> <h2>Aukiooloajat </h2> </a>
+        <li>ma - pe 10:30 - 15:00</li>
+        <li>la 11:00 - 15:00</li>
+        <li>pe ja la 17:00 - 21:00</li>
+      </section>
+      
+        <section id="Yhteystiedot">
+        <a id="Yhteystiedot"> <h2>Yhteystiedot</h2></a>
+        <P>Ravintola Oula
+        <P>Hallituskatu 12</P>       
+        <P> 96200 ROVANIEMI</P>    
+        <P>Puh. (016) 555 4755</P>     
+        <P>Fax (016) 555 4756</P>    
+        <P>E-Mail: ravintola.oula@oulanet.fi</P>
+        </section>
+        <section id="sijainti">
+            <a name="sijainti"> <h3>sijainti</h3></a>
+    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11340.467186822289!2d25.481353847444815!3d65.00633072860651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7e636946dc918d1!2sRavintola%20Toscana!5e0!3m2!1sfi!2sfi!4v1601962333321!5m2!1sfi!2sfi" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+             <p>&copy;Ayham</p>
+            </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+                //Get the button
+                            var mybutton = document.getElementById("top");
+                            
+                            
+                            
+                            // When the user scrolls down 20px from the top of the document, show the button
+                            window.onscroll = function() {scrollFunction()};
+                            
+                            
+                            
+                            function scrollFunction() {
+                            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                mybutton.style.display = "block";
+                            } else {
+                                mybutton.style.display = "none";
+                            }
+                            }
+                            
+                            
+                            
+                            // When the user clicks on the button, scroll to the top of the document
+                            function topFunction() {
+                            document.body.scrollTop = 0;
+                            document.documentElement.scrollTop = 0;
+                            }
+            </script>
+
+
+
+    </body>
+</html>
