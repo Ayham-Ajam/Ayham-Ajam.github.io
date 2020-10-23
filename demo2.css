@@ -29,10 +29,12 @@ section {
     width: 45%;
     float: left;
 }
+
 #hintataulukko {
     width: 45%;
     float: left;
 }
+
 #hintaalue {
     display: flex;
     justify-content: center;
@@ -108,4 +110,7 @@ img.round {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+#Suorita{
+    color: #0000ff
 }
