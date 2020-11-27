@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  #taustakuva{     
+    background-image:url(./book-4.jpg);     
+    background-repeat: no-repeat;     
+    background-size: cover; 
+    position: relative;
+    
+}
+    section {
+    height: 100vh;
+}
+.Logo{
+    position: absolute;
+    top: 50px; 
+}
+.hero-image {
+    background-image: linear-gradient(rgba(36, 29, 0, 65), rgba(36, 29, 0, 65)), url("book-4.jpg");
+}
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #3A405A;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #värilaatikko {
+        position: absolute;
+        bottom: 0;
+        height: 250px;
+        width: 100%;
+        background-color: #3A405A;
+        opacity: 60%;
+        z-index: 3;
+        margin: 0;
+    }
+    #tekstilaatikko{
+        color: white;
+        
+    }
+    #otsikko{
+        color: white;
+    }
+  
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .Tietoja {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .Tietoja .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #3A405A;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .Tietoja:hover .dropbtn {
+    background-color:#3A405A;
+  }
+  
+  .Tietoja-content {
+    display: none;
+    position: absolute;
+    background-color: #3A405A;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .Tietoja-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+  }
+  
+  .Tietoja:hover .Tietoja-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #3A405A;
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
