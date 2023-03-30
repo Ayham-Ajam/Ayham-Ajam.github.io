@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/fanikauppa/static/css/main.2627bb09.chunk.css",
+    "main.js": "/fanikauppa/static/js/main.0f881aa9.chunk.js",
+    "main.js.map": "/fanikauppa/static/js/main.0f881aa9.chunk.js.map",
+    "runtime-main.js": "/fanikauppa/static/js/runtime-main.589dc92d.js",
+    "runtime-main.js.map": "/fanikauppa/static/js/runtime-main.589dc92d.js.map",
+    "static/css/2.27dd871e.chunk.css": "/fanikauppa/static/css/2.27dd871e.chunk.css",
+    "static/js/2.314d9d8f.chunk.js": "/fanikauppa/static/js/2.314d9d8f.chunk.js",
+    "static/js/2.314d9d8f.chunk.js.map": "/fanikauppa/static/js/2.314d9d8f.chunk.js.map",
+    "static/js/3.ea85d1dc.chunk.js": "/fanikauppa/static/js/3.ea85d1dc.chunk.js",
+    "static/js/3.ea85d1dc.chunk.js.map": "/fanikauppa/static/js/3.ea85d1dc.chunk.js.map",
+    "index.html": "/fanikauppa/index.html",
+    "static/css/2.27dd871e.chunk.css.map": "/fanikauppa/static/css/2.27dd871e.chunk.css.map",
+    "static/css/main.2627bb09.chunk.css.map": "/fanikauppa/static/css/main.2627bb09.chunk.css.map",
+    "static/js/2.314d9d8f.chunk.js.LICENSE.txt": "/fanikauppa/static/js/2.314d9d8f.chunk.js.LICENSE.txt",
+    "static/media/img1.5fa21f2e.jpg": "/fanikauppa/static/media/img1.5fa21f2e.jpg",
+    "static/media/img2.d33896d4.jpg": "/fanikauppa/static/media/img2.d33896d4.jpg",
+    "static/media/img3.75308b16.jpg": "/fanikauppa/static/media/img3.75308b16.jpg",
+    "static/media/img4.07a9b057.jpg": "/fanikauppa/static/media/img4.07a9b057.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.589dc92d.js",
+    "static/css/2.27dd871e.chunk.css",
+    "static/js/2.314d9d8f.chunk.js",
+    "static/css/main.2627bb09.chunk.css",
+    "static/js/main.0f881aa9.chunk.js"
+  ]
+}
